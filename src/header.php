@@ -11,13 +11,3 @@
   </head>
   <body <?php body_class(); ?>>
     <div class="wrapper">
-      <header class="header" role="banner">
-        <div class="header__logo logo">
-          <a href="<?php echo home_url(); ?>">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="Logo" class="logo__image">
-          </a>
-        </div>
-      </header>
-      <nav class="nav" role="navigation">
-        <?php wp_nav_menu() ?>
-      </nav>
