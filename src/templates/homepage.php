@@ -13,17 +13,18 @@
 
   <?php get_header(); ?>
 
-  <main class="main main--frontpage">
+  <main class="main main--frontpage frontpage">
     <section class="section section--frontpage">
-      <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-        <div class="hero-image">
-          <img
-            class="hero-image__image"
-            src="<?php echo $heroImage; ?>"
-          />
-        </div>
-      </article>
+      <div class="hero-image">
+        <img
+          class="hero-image__image"
+          src="<?php echo $heroImage; ?>"
+        />
+      </div>
     </section>
+    <?php if (have_posts()) : the_post(); ?>
+      <?php the_content(); ?>
+    <?php endif; ?>
   </main>
 
 <?php get_footer(); ?>

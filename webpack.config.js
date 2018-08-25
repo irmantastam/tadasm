@@ -22,7 +22,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        test: /\.(png|woff|woff2|eot|otf|ttf|svg)$/,
         exclude: [
           /\.html$/,
           /\.(js|jsx)$/,

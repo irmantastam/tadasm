@@ -10,4 +10,22 @@
 */
 
 @import url("../../../node_modules/normalize.css/normalize.css");
+
+/**
+ * Base
+ */
+@import "./base/settings-colors.scss";
+@import "./base/settings-typography.scss";
+@import "./base/typography.scss";
 @import "./base/base.scss";
+
+/**
+ * Components
+ */
+@import "./components/header";
+@import "./components/hero-image";
+
+/**
+ * Pages
+ */
+@import "./pages/frontpage";
