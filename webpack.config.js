@@ -75,10 +75,10 @@ module.exports = {
                   }),
                   postcssCalc,
                   postcssInlineSVG({
-                    path: `${__dirname}/src/images/icons`,
+                    path: `${__dirname}/src/assets/icons`,
                   }),
                   postcssSVG({
-                    paths: [`${__dirname}/src/images/icons`],
+                    paths: [`${__dirname}/src/assets/icons`],
                   }),
                 ],
               },
