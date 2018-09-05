@@ -20,6 +20,9 @@
           class="hero-image__image"
           src="<?php echo $heroImage; ?>"
         />
+        <div class="hero-image__text">
+          <?php _e("I help people feel better, move better and perform better", "es-blank"); ?>
+        </div>
       </div>
     </section>
     <?php if (have_posts()) : the_post(); ?>

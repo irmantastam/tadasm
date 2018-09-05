@@ -9,6 +9,16 @@ a {
   color: $color--darkergrey;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
 main {
   padding: 0 20px;
   padding-top: 200px;
