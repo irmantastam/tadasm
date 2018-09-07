@@ -9,7 +9,10 @@ a {
   color: $color--darkergrey;
 }
 
-html,
+html {
+  height: 100%;
+}
+
 body {
   height: 100%;
 }
@@ -22,8 +25,14 @@ body {
 main {
   padding: 0 20px;
   padding-top: 200px;
+  padding-bottom: 65px;
 
   @media screen and (min-width: 768px) {
     padding-top: 100px;
   }
+}
+
+img {
+  width: 100%;
+  height: auto;
 }

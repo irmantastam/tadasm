@@ -18,6 +18,6 @@
           </a>
         </div>
         <nav class="nav" role="navigation">
-          
+          <?php wp_nav_menu() ?>
         </nav>
       </header>
