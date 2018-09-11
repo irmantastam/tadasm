@@ -30,8 +30,9 @@
           src="<?php echo get_template_directory_uri(); ?>/assets/images/tadas.jpg"
         />
         <div class="greeting__text">
-          <h1> Hi, I'm Tadas </h1>
-          <?php _e("I help people feel better, move better and perform better, this is my soon to be great website.", "es-blank"); ?>
+          <h1> <?php _e('Hi, I\'m Tadas'); ?> </h1>
+          <p><?php _e("I help people feel better, move better and perform better, this is my soon to be great website.", "es-blank"); ?></p>
+          <h3><a href='/posts'><?php _e("See my latest articles", "es-blank"); ?></a></h3>
         </div>
       </div>
     </section>

@@ -100,8 +100,12 @@
           }
         }
 
-        &:hover::after {
-          width: 100%;
+        &:hover {
+          text-decoration: none;
+
+          &::after {
+            width: 100%;
+          }
         }
       }
     }
