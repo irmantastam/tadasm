@@ -8,7 +8,14 @@
   /*
     Template variables:
   */
-  $heroImage = get_field('Hero image');
+  $heroImage = get_field('hero_image');
+  $heroText = get_field('hero_text');
+
+  $greetingPhoto = get_field('greeting_photo');
+  $greetingLabel = get_field('greeting_label');
+  $greetingText = get_field('greeting_text');
+  $greetingLink = get_field('greeting_link');
+  $greetingLinkText = get_field('greeting_link_text');
 ?>
 
   <?php get_header(); ?>
@@ -21,18 +28,18 @@
           src="<?php echo $heroImage; ?>"
         />
         <div class="hero-image__text">
-          <?php _e("I help people feel better, move better and perform better", "es-blank"); ?>
+          <?php echo $heroText; ?>
         </div>
       </div>
       <div class="greeting">
         <img
           class="greeting__image"
-          src="<?php echo get_template_directory_uri(); ?>/assets/images/tadas.jpg"
+          src="<?php echo $greetingPhoto; ?>"
         />
         <div class="greeting__text">
-          <h1> <?php _e('Hi, I\'m Tadas'); ?> </h1>
-          <p><?php _e("I help people feel better, move better and perform better, this is my soon to be great website.", "es-blank"); ?></p>
-          <h3><a href='/posts'><?php _e("See my latest articles", "es-blank"); ?></a></h3>
+          <h1> <?php echo $greetingLabel; ?> </h1>
+          <p><?php echo $greetingText ?></p>
+          <h3><a href="<?php echo $greetingLink; ?>"><?php echo $greetingLinkText; ?></a></h3>
         </div>
       </div>
     </section>
