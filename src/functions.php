@@ -33,4 +33,6 @@ if (function_exists('register_sidebar')) {
   ));
 }
 
+load_theme_textdomain('es-blank');
+
 ?>
