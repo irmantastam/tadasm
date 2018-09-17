@@ -32,15 +32,15 @@
 }
 
 @mixin font-bold {
-  font-family: 'AkzidenzGroteskBE-BoldCn', sans-serif;
-  font-weight: $regular;
+  font-family: 'AkzidenzGroteskBE-Medium', sans-serif;
+  font-weight: $bold;
   line-height: 1;
   text-transform: uppercase;
 }
 
 @mixin font-light {
-  font-family: 'AkzidenzGroteskBE-Light', sans-serif;
-  font-weight: $regular;
+  font-family: 'AkzidenzGroteskBE-Medium', sans-serif;
+  font-weight: $light;
   line-height: 1;
   text-transform: none;
 }
@@ -52,10 +52,9 @@
   text-transform: none;
 }
 
-html,
-.styleguide-global {
+html {
   color: $color--darkergrey;
-  font-family: 'AkzidenzGroteskBE-Light', sans-serif;
+  font-family: 'AkzidenzGroteskBE-Medium', sans-serif;
   font-size: $font-size;
   font-weight: $regular;
   line-height: 24px;
@@ -97,7 +96,7 @@ h1,
   margin: 44px 0 12px;
   font-size: $h1-size;
   line-height: 56px;
-  font-weight: 300;
+  font-weight: $regular;
 }
 
 h2,

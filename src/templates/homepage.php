@@ -39,12 +39,14 @@
         <div class="greeting__text">
           <h1> <?php echo $greetingLabel; ?> </h1>
           <p><?php echo $greetingText ?></p>
-          <h3><a href="<?php echo $greetingLink; ?>"><?php echo $greetingLinkText; ?></a></h3>
+          <h4><a href="<?php echo $greetingLink; ?>"><?php echo $greetingLinkText; ?></a></h4>
         </div>
       </div>
     </section>
     <?php if (have_posts()) : the_post(); ?>
-      <?php the_content(); ?>
+      <div class="content">
+        <?php the_content(); ?>
+      </div>
     <?php endif; ?>
   </main>
 
