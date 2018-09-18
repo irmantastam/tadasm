@@ -13,8 +13,9 @@
     display: inline-block;
     vertical-align: middle;
     color: $color--white;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-top: 2px;
+    font-size: $font-size-small;
   }
 
   .social-links {
@@ -25,8 +26,7 @@
       background-repeat: no-repeat;
       background-position: center;
       background-size: 18px;
-      margin-right: 5px;
-      padding: 5px 12px;
+      padding: 9px 20px;
 
       &:last-child {
         margin-right: 0;
