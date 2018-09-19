@@ -35,21 +35,18 @@
   font-family: 'AkzidenzGroteskBE-Medium', sans-serif;
   font-weight: $bold;
   line-height: 1;
-  text-transform: uppercase;
 }
 
 @mixin font-light {
   font-family: 'AkzidenzGroteskBE-Medium', sans-serif;
   font-weight: $light;
   line-height: 1;
-  text-transform: none;
 }
 
 @mixin font-medium {
   font-family: 'AkzidenzGroteskBE-Medium', sans-serif;
   font-weight: $regular;
   line-height: 1;
-  text-transform: none;
 }
 
 html {
@@ -95,7 +92,7 @@ h1,
 .h1 {
   margin: 44px 0 12px;
   font-size: $h1-size;
-  line-height: 48px;
+  line-height: 42px;
   font-weight: $regular;
 }
 
@@ -135,6 +132,6 @@ h6,
 }
 
 p {
-  margin: 0;
+  margin: 10px 0;
   font-size: $font-size;
 }
