@@ -11,6 +11,7 @@
   $heroImage = get_field('hero_image');
   $heroVideo = get_field('hero_video');
   $heroText = get_field('hero_text');
+  $heroQuotes = get_field('hero_quotes');
 
   $greetingPhoto = get_field('greeting_photo');
   $greetingLabel = get_field('greeting_label');
@@ -35,7 +36,14 @@
           />
         <?php endif; ?>
         <div class="hero-image__text">
-          <?php echo $heroText; ?>
+          <?php if ($heroText): echo $heroText; ?>
+          <?php elseif ($heroQuotes):?>
+            <?php 
+              $quotes = explode(PHP_EOL, $heroQuotes);
+              $randQuote = rand(0, sizeOf($quotes) - 1);
+              echo $quotes[$randQuote];
+            ?>
+          <?php endif; ?>
         </div>
       </div>
       <div class="greeting">
