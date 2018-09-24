@@ -9,6 +9,7 @@
     Template variables:
   */
   $heroImage = get_field('hero_image');
+  $heroVideo = get_field('hero_video');
   $heroText = get_field('hero_text');
 
   $greetingPhoto = get_field('greeting_photo');
@@ -23,10 +24,16 @@
   <main class="main main--frontpage frontpage">
     <section class="section section--frontpage">
       <div class="hero-image">
-        <img
-          class="hero-image__image"
-          src="<?php echo $heroImage; ?>"
-        />
+        <?php if ($heroVideo): ?>
+          <video poster="<?php echo $heroImage; ?>" class="hero-image__video" playsinline autoplay muted loop>
+            <source src="<?php echo $heroVideo; ?>" type="video/mp4">
+          </video>
+        <?php elseif ($heroImage): ?>
+          <img
+            class="hero-image__image"
+            src="<?php echo $heroImage; ?>"
+          />
+        <?php endif; ?>
         <div class="hero-image__text">
           <?php echo $heroText; ?>
         </div>
