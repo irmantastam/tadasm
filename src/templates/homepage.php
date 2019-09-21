@@ -47,14 +47,21 @@
         </div>
       </div>
       <div class="greeting">
-        <img
-          class="greeting__image"
-          src="<?php echo $greetingPhoto; ?>"
-        />
+        <div class="greeting__image">
+          <img
+            src="<?php echo $greetingPhoto; ?>"
+          />
+        </div>
         <div class="greeting__text">
-          <h1> <?php echo $greetingLabel; ?> </h1>
-          <p><?php echo $greetingText ?></p>
-          <h4><a href="<?php echo $greetingLink; ?>"><?php echo $greetingLinkText; ?></a></h4>
+          <h1 class="greeting__title">
+            <?php echo $greetingLabel; ?>
+          </h1>
+          <p class="greeting__body">
+            <?php echo $greetingText ?>
+          </p>
+          <a class="greeting__link" href="<?php echo $greetingLink; ?>">
+            <?php echo $greetingLinkText; ?>
+          </a>
         </div>
       </div>
     </section>

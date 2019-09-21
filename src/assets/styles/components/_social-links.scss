@@ -1,0 +1,23 @@
+.social-links {
+  &__link {
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    background-size: 100%;
+    width: 20px;
+    height: 24px;
+    vertical-align: middle;
+
+    & + & {
+      margin-left: 15px;
+    }
+
+    &--instagram {
+      background-image: svg-load('instagram.svg');
+    }
+
+    &--facebook {
+      background-image: svg-load('facebook.svg');
+    }
+  }
+}

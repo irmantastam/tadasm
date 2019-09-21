@@ -17,7 +17,7 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    modules: [path.resolve(__dirname, 'src/components'), 'node_modules'],
+    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
   },
   module: {
     rules: [

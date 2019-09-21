@@ -2,32 +2,28 @@
   @media screen and (min-width: 768px) {
     margin: 0 auto;
     max-width: 680px;
-    font-size: 0;
   }
 
   &__image {
-    border-radius: 100%;
-    width: 65%;
-    max-width: 300px;
-    margin: 0 auto;
+    width: calc(100% + 40px);
+    margin: 0 -20px;
     display: block;
 
     @media screen and (min-width: 768px) {
       display: inline-block;
       max-width: none;
       width: 46%;
-      margin-right: 4%;
+      margin: auto;
+      margin-right: 3%;
       vertical-align: middle;
     }
   }
 
   &__text {
-    text-align: center;
+    margin-top: 20px;
 
-    h1 {
-      @media screen and (min-width: 768px) {
-        margin-top: 0;
-      }
+    @media screen and (min-width: 768px) {
+      margin-top: 0;
     }
 
     @media screen and (min-width: 768px) {
@@ -37,5 +33,13 @@
       margin-left: 4%;
       vertical-align: middle;
     }
+  }
+
+  &__link {
+    text-decoration: underline;
+    font-weight: $regular;
+    margin-top: 20px;
+    color: $color--red;
+    display: block;
   }
 }

@@ -11,15 +11,17 @@
   <body <?php body_class(); ?>>
     <div class="wrapper">
       <header class="header" role="banner">
-        <div class="header__logo logo">
-          <a href="<?php echo home_url(); ?>">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tadas.jpg" alt="Logo" class="logo__image">
-          </a>
-        </div>
-        <nav class="nav" role="navigation">
-          <?php wp_nav_menu() ?>
-          <div class="social-links">
-            <a class="social-links__link social-links__link--instagram" href="https://www.instagram.com/tadas.physio/" target="_blank"/></a>
+        <div class="inner">
+          <div class="header__logo logo">
+            <a href="<?php echo home_url(); ?>">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/running-man.svg" alt="Logo" class="logo__image">
+            </a>
           </div>
-        </nav>
+          <nav class="nav" role="navigation">
+            <?php wp_nav_menu() ?>
+          </nav>
+          <div class="social-links">
+            <a class="social-links__link social-links__link--instagram" href="https://www.instagram.com/tadas.mikelionis" target="_blank"/></a>
+          </div>
+        </div>
       </header>
