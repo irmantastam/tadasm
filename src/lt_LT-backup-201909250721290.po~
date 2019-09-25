@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: es-blank\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-15 19:23+0000\n"
-"PO-Revision-Date: 2019-09-25 07:21+0000\n"
+"PO-Revision-Date: 2019-09-25 07:20+0000\n"
 "Last-Translator: tadas <irmantas.tam@gmail.com>\n"
 "Language-Team: Lietuvių kalba\n"
 "Language: lt_LT\n"
@@ -90,7 +90,7 @@ msgstr ""
 
 #: 404.php:8
 msgid "Return home?"
-msgstr "Grįžti į pradinį?"
+msgstr "Grįžti į pradinį"
 
 #: author.php:33 loop.php:23 page.php:14 single.php:20
 msgid "Sorry, nothing to display."
