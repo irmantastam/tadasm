@@ -14,7 +14,7 @@
         <div class="inner">
           <div class="header__logo logo">
             <a href="<?php echo home_url(); ?>">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/running-man.svg" alt="Logo" class="logo__image">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tm_logo.jpg" alt="Logo" class="logo__image">
             </a>
           </div>
           <nav class="nav" role="navigation">
