@@ -4,12 +4,11 @@
   <section>
     <article id="post-404">
       <h1><?php esc_html_e('Page not found', 'es-blank'); ?></h1>
-      <h2>
+      <h4>
         <a href="<?php echo esc_url(home_url()); ?>"><?php esc_html_e('Return home?', 'es-blank'); ?></a>
-      </h2>
+      </h4>
     </article>
   </section>
 </main>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
