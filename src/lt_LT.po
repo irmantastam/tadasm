@@ -3,9 +3,9 @@ msgstr ""
 "Project-Id-Version: es-blank\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-29 15:51+0000\n"
-"PO-Revision-Date: 2019-09-29 15:57+0000\n"
+"PO-Revision-Date: 2019-09-29 17:09+0000\n"
 "Last-Translator: tadas <irmantas.tam@gmail.com>\n"
-"Language-Team: Lithuanian\n"
+"Language-Team: Lietuvių kalba\n"
 "Language: lt_LT\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
 "&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
@@ -22,7 +22,7 @@ msgstr "% Komentarų"
 #: search.php:5
 #, php-format
 msgid "%s Search Results for "
-msgstr "%s Paieškos rezultatai frazei"
+msgstr "%s Paieškos rezultatai užklausai "
 
 #: loop.php:18
 msgid "1 Comment"
@@ -46,11 +46,11 @@ msgstr "Archyvai"
 
 #: loop.php:17
 msgid "by"
-msgstr "pagal"
+msgstr "sukūrė"
 
 #: category.php:5
 msgid "Category: "
-msgstr "Kategorija:"
+msgstr "Kategorija: "
 
 #: comments.php:12
 msgid "Comments are closed here."
