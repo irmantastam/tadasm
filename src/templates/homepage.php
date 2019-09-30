@@ -33,6 +33,7 @@
           <img
             class="hero-image__image"
             src="<?php echo $heroImage; ?>"
+            alt="<?php echo $heroText; ?>"
           />
         <?php endif; ?>
         <div class="hero-image__text">
@@ -50,6 +51,7 @@
         <div class="greeting__image">
           <img
             src="<?php echo $greetingPhoto; ?>"
+            alt="<?php echo $greetingLabel; ?>"
           />
         </div>
         <div class="greeting__text">
