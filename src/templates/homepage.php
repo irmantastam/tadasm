@@ -37,7 +37,7 @@
             title="<?php _e('Physiotherapist Tadas Mikelionis', 'es-blank'); ?>"
           />
         <?php endif; ?>
-        <div class="hero-image__text">
+        <h2 class="hero-image__text">
           <?php if ($heroText): echo $heroText; ?>
           <?php elseif ($heroQuotes):?>
             <?php 
@@ -46,7 +46,7 @@
               echo $quotes[$randQuote];
             ?>
           <?php endif; ?>
-        </div>
+        </h2>
       </div>
       <div class="greeting">
         <div class="greeting__image">
