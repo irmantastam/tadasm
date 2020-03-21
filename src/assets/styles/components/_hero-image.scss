@@ -28,11 +28,14 @@
     max-width: 70%;
     margin: 0;
     line-height: 1.4;
+    font-weight: 400;
+    font-size: $h1-size;
+    text-shadow: 0 0 32px #000000;
 
     @media screen and (min-width: 768px) {
-      font-size: $h1-size;
       width: auto;
-      width: 430px;
+      max-width: 580px;
+      font-size: 38px;
     }
   }
 }
