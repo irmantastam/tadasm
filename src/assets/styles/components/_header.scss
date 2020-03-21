@@ -55,13 +55,11 @@
         padding: 5px 10px;
 
         @media screen and (min-width: 768px) {
-          padding: 0 15px;
+          padding: 5px 15px;
         }
       }
 
       @media screen and (min-width: 768px) {
-        white-space: nowrap;
-
         > .lang-item {
           margin-left: 20px;
 
