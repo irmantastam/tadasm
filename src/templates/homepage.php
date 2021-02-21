@@ -24,6 +24,7 @@
 
   <main class="main main--frontpage frontpage">
     <section class="section section--frontpage">
+	  <?php if ($heroImage): ?>
       <div class="hero-image">
         <?php if ($heroVideo): ?>
           <video poster="<?php echo $heroImage; ?>" class="hero-image__video" playsinline autoplay muted loop>
@@ -48,6 +49,7 @@
           <?php endif; ?>
         </h2>
       </div>
+	  <?php endif; ?>
       <div class="greeting">
         <div class="greeting__image">
           <img
