@@ -17,12 +17,12 @@ module.exports = {
   },
   devtool: 'source-map',
   resolve: {
-    modules: [path.resolve(__dirname, 'src/components'), 'node_modules'],
+    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
   },
   module: {
     rules: [
       {
-        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        test: /\.(png|woff|woff2|eot|otf|ttf|svg)$/,
         exclude: [
           /\.html$/,
           /\.(js|jsx)$/,
@@ -75,10 +75,10 @@ module.exports = {
                   }),
                   postcssCalc,
                   postcssInlineSVG({
-                    path: `${__dirname}/src/images/icons`,
+                    path: `${__dirname}/src/assets/icons`,
                   }),
                   postcssSVG({
-                    paths: [`${__dirname}/src/images/icons`],
+                    paths: [`${__dirname}/src/assets/icons`],
                   }),
                 ],
               },

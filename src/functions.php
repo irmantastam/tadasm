@@ -14,6 +14,9 @@ function loadScripts() {
 /* Support programmable title tag */
 add_theme_support('title-tag');
 
+/* Register top menu */
+register_nav_menus(['top'  => __('Top Menu', 'es-blank')]);
+
 /* Register styles and scripts */
 add_action('wp_enqueue_scripts', 'loadStyles');
 add_action('wp_enqueue_scripts', 'loadScripts');
@@ -29,5 +32,7 @@ if (function_exists('register_sidebar')) {
 		'after_title'   => '</h4>'
   ));
 }
+
+load_theme_textdomain('es-blank');
 
 ?>

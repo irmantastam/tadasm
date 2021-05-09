@@ -3,7 +3,7 @@
 <main role="main" aria-label="Content">
   <section>
     <?php if ( have_posts() ): the_post(); ?>
-      <h1><?php esc_html_e( 'Author Archives for ', 'es-blank' ); echo get_the_author(); ?></h1>
+      <h1><?php esc_html_e( 'All posts from ', 'es-blank' ); echo get_the_author(); ?></h1>
       <?php if ( get_the_author_meta('description')): ?>
       <?php echo get_avatar(get_the_author_meta('user_email')); ?>
       <h2><?php esc_html_e('About ', 'es-blank'); echo get_the_author(); ?></h2>
@@ -25,7 +25,6 @@
           </time>
         </span>
         <span class="author"><?php esc_html_e( 'Published by', 'es-blank' ); ?> <?php the_author_posts_link(); ?></span>
-        <span class="comments"><?php comments_popup_link( __('Add comments', 'es-blank'), __('1 Comment', 'es-blank'), __('% Comments', 'es-blank')); ?></span>
         <?php the_excerpt(); ?>
       </article>
     <?php endwhile; ?>
@@ -37,5 +36,4 @@
   </section>
 </main>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

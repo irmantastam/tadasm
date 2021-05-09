@@ -1,0 +1,115 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: es-blank\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-15 19:46+0000\n"
+"PO-Revision-Date: 2019-12-15 19:48+0000\n"
+"Last-Translator: tadas <irmantas.tam@gmail.com>\n"
+"Language-Team: Lietuvių kalba\n"
+"Language: lt_LT\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
+"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.0; wp-5.3.1"
+
+#: functions.php:18
+msgid "Top Menu"
+msgstr "Viršutinis meniu"
+
+#: category.php:5
+msgid "Category: "
+msgstr "Kategorija: "
+
+#: 404.php:6
+msgid "Page not found"
+msgstr "Puslapis nerastas"
+
+#: 404.php:8
+msgid "Return home?"
+msgstr "Grįžti namo?"
+
+#: index.php:5
+msgid "Latest posts"
+msgstr "Paskutiniai įrašai"
+
+#: archive.php:5
+msgid "Archives"
+msgstr "Archyvai"
+
+#: comments.php:3
+msgid "Post is password protected. Enter the password to view any comments."
+msgstr ""
+"Įrašas apsaugotas slaptažodžiu, įveskite slaptažody norėdami matyti "
+"komentarus"
+
+#: comments.php:12
+msgid "Comments are closed here."
+msgstr "Komentarai neleidžiami"
+
+#: tag.php:5
+msgid "Tag Archive: "
+msgstr "Žymų archyvas"
+
+#: search.php:5
+#, php-format
+msgid "%s Search Results for "
+msgstr "%s Paieškos rezultatai užklausai "
+
+#: footer.php:3
+msgid "tadasm.lt 2019"
+msgstr "tadasm.lt 2019"
+
+#: single.php:20 page.php:15 loop.php:23 author.php:33
+msgid "Sorry, nothing to display."
+msgstr "Atsiprašome, nėra ką parodyti"
+
+#: loop.php:17
+msgid "by"
+msgstr "sukūrė"
+
+#: loop.php:18
+msgid "Add comment"
+msgstr "Rašyti komentarą"
+
+#: loop.php:18
+msgid "1 Comment"
+msgstr "1 Komantaras"
+
+#: loop.php:18
+msgid "% Comments"
+msgstr "% Komentarų"
+
+#: author.php:6
+msgid "All posts from "
+msgstr "Visi įrašai nuo"
+
+#: author.php:9
+msgid "About "
+msgstr "Apie"
+
+#: author.php:27
+msgid "Published by"
+msgstr "Parašė"
+
+#. Name of the template
+msgid "Frontpage"
+msgstr "Pradžios puslapis"
+
+#: templates/homepage.php:37 templates/homepage.php:56
+msgid "Physiotherapist Tadas Mikelionis"
+msgstr "Kineziterapeutas Tadas Mikelionis"
+
+#. Name of the template
+msgid "Posts"
+msgstr "Įrašai"
+
+#: templates/posts.php:11
+msgid "My Latest Articles and Podcasts"
+msgstr "Mano naujausi įrašai"
+
+#. Name of the theme
+msgid "es-blank/es-blank/src"
+msgstr "es-blank/es-blank/src"

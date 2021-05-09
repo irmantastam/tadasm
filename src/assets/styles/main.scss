@@ -9,5 +9,29 @@
 * License URI: http://opensource.org/licenses/mit-license.php
 */
 
-@import url("../../../node_modules/normalize.css/normalize.css");
+/**
+ * Variables.
+ */
+@import "./variables/colors.scss";
+@import "./variables/typography.scss";
+
+/**
+ * Base
+ */
 @import "./base/base.scss";
+
+/**
+ * Components.
+ */
+@import "./components/header";
+@import "./components/footer";
+@import "./components/hero-image";
+@import "./components/greeting";
+@import "./components/social-links";
+
+/**
+ * Pages.
+ */
+@import "./pages/frontpage";
+@import "./pages/posts";
+@import "./pages/post";

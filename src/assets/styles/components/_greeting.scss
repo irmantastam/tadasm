@@ -1,0 +1,45 @@
+.greeting {
+  @media screen and (min-width: 768px) {
+    margin: 0 auto;
+    max-width: 680px;
+  }
+
+  &__image {
+    width: calc(100% + 40px);
+    margin: 0 -20px;
+    display: block;
+
+    @media screen and (min-width: 768px) {
+      display: inline-block;
+      max-width: none;
+      width: 46%;
+      margin: auto;
+      margin-right: 3%;
+      vertical-align: middle;
+    }
+  }
+
+  &__text {
+    margin-top: 20px;
+
+    @media screen and (min-width: 768px) {
+      margin-top: 0;
+    }
+
+    @media screen and (min-width: 768px) {
+      display: inline-block;
+      text-align: left;
+      width: 46%;
+      margin-left: 4%;
+      vertical-align: middle;
+    }
+  }
+
+  &__link {
+    text-decoration: underline;
+    font-weight: $regular;
+    margin-top: 20px;
+    color: $color--red;
+    display: block;
+  }
+}

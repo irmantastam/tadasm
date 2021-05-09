@@ -1,0 +1,23 @@
+.footer {
+  background-color: $color--darkergrey;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: right;
+  line-height: 80px;
+  padding: 0 30px;
+
+  &__text {
+    font-weight: $bold;
+    display: inline-block;
+    vertical-align: bottom;
+    color: $color--white;
+    margin-right: 20px;
+  }
+
+  .social-links {
+    display: inline-block;
+    vertical-align: bottom;
+  }
+}

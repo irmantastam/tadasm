@@ -1,0 +1,41 @@
+.hero-image {
+  margin: 0 -20px;
+  overflow: hidden;
+  position: relative;
+  height: 450px;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    margin: 0 -40px;
+    margin-bottom: 50px;
+  }
+
+  &__image,
+  &__video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  &__text {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $color--white;
+    text-align: center;
+    width: 300px;
+    max-width: 70%;
+    margin: 0;
+    line-height: 1.4;
+    font-weight: 400;
+    font-size: $h1-size;
+    text-shadow: 0 0 32px #000000;
+
+    @media screen and (min-width: 768px) {
+      width: auto;
+      max-width: 580px;
+      font-size: 38px;
+    }
+  }
+}
