@@ -2,7 +2,7 @@
 
   <main role="main" aria-label="Content">
     <section>
-      <h1><?php esc_html_e('Category: ', 'es-blank'); single_cat_title(); ?></h1>
+      <h1><?php esc_html_e('Category: ', 'tadasm.lt'); single_cat_title(); ?></h1>
       <?php get_template_part('loop'); ?>
       <?php get_template_part('pagination'); ?>
     </section>

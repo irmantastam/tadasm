@@ -1,7 +1,7 @@
 {
-  "name": "es-blank",
+  "name": "tadasm.lt",
   "version": "1.0.0",
-  "description": "Blank Wordpress theme based on Webpack",
+  "description": "Wordpress theme for tadasm.lt website",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --colors --watch --mode development",
@@ -10,23 +10,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/irmantastam/es-blank.git"
+    "url": "git+https://github.com/irmantastam/tadasm.lt.git"
   },
   "keywords": [
     "wordpress",
-    "html5",
-    "es6",
+    "html",
+    "javascript",
     "sass",
+    "css",
     "postcss",
     "webpack",
     "babel"
   ],
-  "author": "Irmantas Tamasauskas",
+  "author": "Irmantas Tamašauskas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/irmantastam/es-blank/issues"
+    "url": "https://github.com/irmantastam/tadasm.lt/issues"
   },
-  "homepage": "https://github.com/irmantastam/es-blank#readme",
+  "homepage": "https://github.com/irmantastam/tadasm.lt#readme",
   "devDependencies": {
     "autoprefixer": "6.5.3",
     "babel-core": "^6.26.3",

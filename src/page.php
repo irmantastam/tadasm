@@ -12,7 +12,7 @@
         <?php endwhile; ?>
         <?php else: ?>
           <article>
-            <h2><?php _e('Sorry, nothing to display.', 'es-blank'); ?></h2>
+            <h2><?php _e('Sorry, nothing to display.', 'tadasm.lt'); ?></h2>
           </article>
         <?php endif; ?>
       </div>

@@ -17,7 +17,7 @@
     <?php endwhile; ?>
     <?php else : ?>
       <article>
-        <h1><?php esc_html_e( 'Sorry, nothing to display.', 'es-blank' ); ?></h1>
+        <h1><?php esc_html_e( 'Sorry, nothing to display.', 'tadasm.lt' ); ?></h1>
       </article>
     <?php endif; ?>
   </section>

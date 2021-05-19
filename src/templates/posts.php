@@ -8,7 +8,7 @@
 
   <main class="main main--posts posts">
     <div class="inner">
-      <h1 class="posts__title"><?php _e('My Latest Articles and Podcasts', 'es-blank'); ?></h1>
+      <h1 class="posts__title"><?php _e('My Latest Articles and Podcasts', 'tadasm.lt'); ?></h1>
       <section class="posts__list">
         <?php foreach (get_posts() as $post) : ?>
           <div class="posts__item">

@@ -15,7 +15,7 @@ function loadScripts() {
 add_theme_support('title-tag');
 
 /* Register top menu */
-register_nav_menus(['top'  => __('Top Menu', 'es-blank')]);
+register_nav_menus(['top'  => __('Top Menu', 'tadasm.lt')]);
 
 /* Register styles and scripts */
 add_action('wp_enqueue_scripts', 'loadStyles');
@@ -33,6 +33,6 @@ if (function_exists('register_sidebar')) {
   ));
 }
 
-load_theme_textdomain('es-blank');
+load_theme_textdomain('tadasm.lt');
 
 ?>
