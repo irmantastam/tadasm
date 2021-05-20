@@ -1,37 +1,18 @@
-/*!
-* Theme Name: tadasm.lt
-* Description: Wordpress theme for tadasm.lt website
-* Version: 1.0
-* Author: Irmantas Tamašauskas
-* Tags: wordpress, html, javascript, sass, css, postcss, webpack, babel
-*
-* License: MIT
-* License URI: http://opensource.org/licenses/mit-license.php
-*/
-
-/**
- * Variables.
- */
+// Variables.
 @import "./variables/colors.scss";
 @import "./variables/typography.scss";
 
-/**
- * Base
- */
+// Base.
 @import "./base/base.scss";
 
-/**
- * Components.
- */
+// Components.
 @import "./components/header";
 @import "./components/footer";
 @import "./components/hero-image";
 @import "./components/greeting";
 @import "./components/social-links";
 
-/**
- * Pages.
- */
+// Pages.
 @import "./pages/frontpage";
 @import "./pages/posts";
 @import "./pages/post";

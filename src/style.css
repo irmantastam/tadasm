@@ -1,9 +1,13 @@
 /*
 Theme Name: tadasm.lt
+Theme URI: https://github.com/irmantastam/tadasm.lt
+Author: Irmantas Tamašauskas
+Author URI: https://github.com/irmantastam
+Description: Wordpress theme for tadasm.lt website.
+Version: 1.0
+Requires PHP: 7.3
+License: MIT
+License URI: https://opensource.org/licenses/MIT
+Tags: wordpress, html, javascript, sass, css, postcss, webpack, babel
 Text Domain: tadasm.lt
-*/
-
-/*
-This css file is needed for Wordpress to recognize the theme.
-Please ignore it and write your SASS code inside ./assets/styles.
 */
