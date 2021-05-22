@@ -14,12 +14,12 @@
         <?php the_date(); ?> <?php the_time(); ?>
       </time>
     </span>
-    <span class="author"><?php _e('by', 'tadasm.lt'); ?> <?php the_author_posts_link(); ?></span>
-    <span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __('Add comment', 'tadasm.lt'), __('1 Comment', 'tadasm.lt'), __('% Comments', 'tadasm.lt')); ?></span>
+    <span class="author"><?php _e('by', 'tadasm'); ?> <?php the_author_posts_link(); ?></span>
+    <span class="comments"><?php if (comments_open( get_the_ID() ) ) comments_popup_link( __('Add comment', 'tadasm'), __('1 Comment', 'tadasm'), __('% Comments', 'tadasm')); ?></span>
   </article>
 <?php endwhile; ?>
 <?php else: ?>
   <article>
-    <h2><?php _e('Sorry, nothing to display.', 'tadasm.lt'); ?></h2>
+    <h2><?php _e('Sorry, nothing to display.', 'tadasm'); ?></h2>
   </article>
 <?php endif; ?>

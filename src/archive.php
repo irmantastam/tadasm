@@ -2,7 +2,7 @@
 
 <main role="main" aria-label="Content">
   <section>
-    <h1><?php esc_html_e('Archives', 'tadasm.lt'); ?></h1>
+    <h1><?php esc_html_e('Archives', 'tadasm'); ?></h1>
     <?php get_template_part('loop'); ?>
     <?php get_template_part('pagination'); ?>
   </section>

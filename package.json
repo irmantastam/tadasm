@@ -1,5 +1,5 @@
 {
-  "name": "tadasm.lt",
+  "name": "tadasm",
   "version": "1.0.0",
   "description": "Wordpress theme for tadasm.lt website",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/irmantastam/tadasm.lt.git"
+    "url": "git+https://github.com/irmantastam/tadasm.git"
   },
   "keywords": [
     "wordpress",
@@ -25,9 +25,9 @@
   "author": "Irmantas Tamašauskas",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/irmantastam/tadasm.lt/issues"
+    "url": "https://github.com/irmantastam/tadasm/issues"
   },
-  "homepage": "https://github.com/irmantastam/tadasm.lt#readme",
+  "homepage": "https://github.com/irmantastam/tadasm#readme",
   "devDependencies": {
     "autoprefixer": "6.5.3",
     "babel-core": "^6.26.3",
