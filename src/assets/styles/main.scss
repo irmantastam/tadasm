@@ -1,18 +1,16 @@
 // Variables.
-@import "./variables/colors.scss";
-@import "./variables/typography.scss";
+@import './variables/colors';
+@import './variables/font-sizes';
+
+// Mixins.
+@import './mixins/font-weights';
 
 // Base.
-@import "./base/base.scss";
+@import './base/base';
 
 // Components.
-@import "./components/header";
-@import "./components/footer";
-@import "./components/hero-image";
-@import "./components/greeting";
-@import "./components/social-links";
-
-// Pages.
-@import "./pages/frontpage";
-@import "./pages/posts";
-@import "./pages/post";
+@import './components/footer';
+@import './components/greeting';
+@import './components/header';
+@import './components/hero-image';
+@import './components/social-links';

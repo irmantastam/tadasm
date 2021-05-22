@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main role="main" aria-label="Content">
-  <section>
+  <section class="inner">
     <?php if (have_posts()): while(have_posts()): the_post(); ?>
       <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
         <?php if ( has_post_thumbnail() ): ?>

@@ -1,0 +1,17 @@
+@mixin font-light {
+  font-weight: $light;
+}
+
+@mixin font-medium {
+  font-weight: $regular;
+}
+
+@mixin font-bold {
+  font-stretch: normal;
+  font-weight: $bold;
+}
+
+@mixin font-bold-condensed {
+  font-stretch: condensed;
+  font-weight: $bold;
+}

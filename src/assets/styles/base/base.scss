@@ -1,25 +1,3 @@
-/**
- * Typography
- */
-
-@mixin font-light {
-  font-weight: $light;
-}
-
-@mixin font-medium {
-  font-weight: $regular;
-}
-
-@mixin font-bold {
-  font-stretch: normal;
-  font-weight: $bold;
-}
-
-@mixin font-bold-condensed {
-  font-stretch: condensed;
-  font-weight: $bold;
-}
-
 html {
   color: $color--darkergrey;
   font-family: Helvetica, sans-serif;
@@ -120,25 +98,10 @@ a {
   }
 }
 
-.wrapper {
-  min-height: 100%;
-  position: relative;
-}
-
-main {
-  padding: 20px;
-  padding-bottom: 100px;
-
-  @media screen and (min-width: 768px) {
-    padding: 40px;
-    padding-bottom: 140px;
-  }
-}
-
 .inner {
   margin: 0 auto;
   max-width: 1240px;
-  padding: 0 20px;
+  padding: 20px;
 }
 
 img {
