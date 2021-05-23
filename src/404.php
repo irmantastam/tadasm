@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <main role="main" aria-label="Content">
-  <section>
+  <section class="inner">
     <article id="post-404">
       <h1><?php esc_html_e('Page not found', 'tadasm'); ?></h1>
       <h4>
@@ -11,5 +11,4 @@
   </section>
 </main>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
