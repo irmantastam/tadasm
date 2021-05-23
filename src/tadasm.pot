@@ -1,14 +1,14 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: tadasm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-23 10:06+0000\n"
-"PO-Revision-Date: 2021-05-23 10:09+0000\n"
-"Last-Translator: \n"
-"Language-Team: Lietuvių kalba\n"
-"Language: lt_LT\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 "
-"&&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -18,99 +18,97 @@ msgstr ""
 
 #: loop.php:18
 msgid "% Comments"
-msgstr "% Komentarų"
+msgstr ""
 
 #: search.php:5
 #, php-format
 msgid "%s Search Results for "
-msgstr "%s Paieškos rezultatai užklausai "
+msgstr ""
 
 #: loop.php:18
 msgid "1 Comment"
-msgstr "1 Komantaras"
+msgstr ""
 
 #: author.php:9
 msgid "About "
-msgstr "Apie"
+msgstr ""
 
 #: loop.php:18
 msgid "Add comment"
-msgstr "Rašyti komentarą"
+msgstr ""
 
 #: author.php:6
 msgid "All posts from "
-msgstr "Visi įrašai nuo"
+msgstr ""
 
 #: archive.php:5
 msgid "Archives"
-msgstr "Archyvai"
+msgstr ""
 
 #: loop.php:17
 msgid "by"
-msgstr "sukūrė"
+msgstr ""
 
 #: category.php:5
 msgid "Category: "
-msgstr "Kategorija: "
+msgstr ""
 
 #: comments.php:12
 msgid "Comments are closed here."
-msgstr "Komentarai neleidžiami"
+msgstr ""
 
 #. Name of the template
 msgid "Front Page"
-msgstr "Pradžios puslapis"
+msgstr ""
 
 #: index.php:5
 msgid "Latest posts"
-msgstr "Paskutiniai įrašai"
+msgstr ""
 
 #: templates/posts.php:11
 msgid "My Latest Articles and Podcasts"
-msgstr "Mano naujausi įrašai"
+msgstr ""
 
 #: 404.php:6
 msgid "Page not found"
-msgstr "Puslapis nerastas"
+msgstr ""
 
 #: templates/front-page.php:39 templates/front-page.php:60
 msgid "Physiotherapist Tadas Mikelionis"
-msgstr "Kineziterapeutas Tadas Mikelionis"
+msgstr ""
 
 #: comments.php:3
 msgid "Post is password protected. Enter the password to view any comments."
 msgstr ""
-"Įrašas apsaugotas slaptažodžiu, įveskite slaptažodį norėdami matyti "
-"komentarus"
 
 #. Name of the template
 msgid "Posts"
-msgstr "Įrašai"
+msgstr ""
 
 #: author.php:27
 msgid "Published by"
-msgstr "Parašė"
+msgstr ""
 
 #: 404.php:8
 msgid "Return home?"
-msgstr "Grįžti namo?"
+msgstr ""
 
 #: author.php:33 loop.php:23 page.php:15 single.php:20
 msgid "Sorry, nothing to display."
-msgstr "Atsiprašome, nėra ką parodyti"
+msgstr ""
 
 #: footer.php:3
 msgid "tadasm.lt 2021"
-msgstr "tadasm.lt 2021"
+msgstr ""
 
 #. Name of the theme
 msgid "tadasm.lt/tadasm.lt/src"
-msgstr "tadasm.lt/tadasm.lt/src"
+msgstr ""
 
 #: tag.php:5
 msgid "Tag Archive: "
-msgstr "Žymų archyvas"
+msgstr ""
 
 #: functions.php:18
 msgid "Top Menu"
-msgstr "Viršutinis meniu"
+msgstr ""
