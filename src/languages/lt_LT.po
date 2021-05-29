@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tadasm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-23 10:06+0000\n"
-"PO-Revision-Date: 2021-05-29 09:30+0000\n"
+"PO-Revision-Date: 2021-05-29 10:43+0000\n"
 "Last-Translator: \n"
 "Language-Team: Lietuvių kalba\n"
 "Language: lt_LT\n"
@@ -36,6 +36,10 @@ msgstr "Apie"
 #: loop.php:18
 msgid "Add comment"
 msgstr "Rašyti komentarą"
+
+#: functions.php:62
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Pridėkite valdiklius čia, kurie atsiras jūsų šoninėje juostoje."
 
 #: author.php:6
 msgid "All posts from "
@@ -95,6 +99,10 @@ msgstr "Parašė"
 msgid "Return home?"
 msgstr "Grįžti namo?"
 
+#: functions.php:60
+msgid "Sidebar"
+msgstr "Šoninė juosta"
+
 #: author.php:33 loop.php:23 page.php:15 single.php:20
 msgid "Sorry, nothing to display."
 msgstr "Atsiprašome, nėra ką parodyti"
@@ -111,6 +119,6 @@ msgstr "tadasm/tadasm/src"
 msgid "Tag Archive: "
 msgstr "Žymų archyvas"
 
-#: functions.php:18
+#: functions.php:26
 msgid "Top Menu"
 msgstr "Viršutinis meniu"
