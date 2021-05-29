@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: tadasm\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-05-23 10:06+0000\n"
-"PO-Revision-Date: 2021-05-23 10:09+0000\n"
+"PO-Revision-Date: 2021-05-29 09:30+0000\n"
 "Last-Translator: \n"
 "Language-Team: Lietuvių kalba\n"
 "Language: lt_LT\n"
@@ -104,8 +104,8 @@ msgid "tadasm.lt 2021"
 msgstr "tadasm.lt 2021"
 
 #. Name of the theme
-msgid "tadasm.lt/tadasm.lt/src"
-msgstr "tadasm.lt/tadasm.lt/src"
+msgid "tadasm/tadasm/src"
+msgstr "tadasm/tadasm/src"
 
 #: tag.php:5
 msgid "Tag Archive: "
