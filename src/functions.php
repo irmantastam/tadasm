@@ -12,13 +12,8 @@ function tadasm_setup() {
 	// Support custom logo.
 	add_theme_support( 'custom-logo' );
 
-	/**
-	 * Make theme available for translation.
-	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on tadasm, use a find and replace
-	 * to change 'tadasm' to the name of your theme in all the template files.
-	 */
-	load_theme_textdomain( 'tadasm', get_template_directory() . '/../languages' );
+	// Make theme available for translation.
+	load_theme_textdomain( 'tadasm', get_template_directory() . '/languages' );
 
 	// Register top menu.
 	register_nav_menus(
