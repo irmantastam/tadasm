@@ -1,7 +1,7 @@
 {
   "name": "tadasm",
   "version": "1.0.0",
-  "description": "Wordpress theme for tadasm.lt website",
+  "description": "WordPress theme for tadasm.lt website",
   "main": "index.js",
   "scripts": {
     "watch": "webpack --colors --watch --mode development",

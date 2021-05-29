@@ -1,4 +1,4 @@
 # tadasm
-Wordpress theme for [tadasm.lt](http://tadasm.lt) website.
+WordPress theme for [tadasm.lt](http://tadasm.lt) website.
 
-![tadasm logo](/src/screenshot.jpg "tadasm Wordpress theme")
+![tadasm logo](/src/screenshot.jpg "tadasm WordPress theme")
