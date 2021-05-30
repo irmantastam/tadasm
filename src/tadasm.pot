@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: tadasm\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-05-29 10:42+0000\n"
+"POT-Creation-Date: 2021-05-30 06:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Add comment"
 msgstr ""
 
-#: functions.php:62
+#: functions.php:57
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
@@ -97,7 +97,7 @@ msgstr ""
 msgid "Return home?"
 msgstr ""
 
-#: functions.php:60
+#: functions.php:55
 msgid "Sidebar"
 msgstr ""
 
@@ -117,6 +117,6 @@ msgstr ""
 msgid "Tag Archive: "
 msgstr ""
 
-#: functions.php:26
+#: functions.php:21
 msgid "Top Menu"
 msgstr ""
