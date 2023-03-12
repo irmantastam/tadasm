@@ -1,14 +1,13 @@
 .footer {
-  background-color: $color--darkergrey;
+  border-top: 1px solid $color--grey;
   text-align: right;
-  line-height: 80px;
+  line-height: 50px;
   padding: 0 30px;
 
   &__text {
     font-weight: $bold;
     display: inline-block;
     vertical-align: bottom;
-    color: $color--white;
     margin-right: 20px;
   }
 

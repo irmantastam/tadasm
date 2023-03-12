@@ -1,11 +1,9 @@
 .header {
   background-color: $color--white;
   border-bottom: 1px solid $color--grey;
-  padding: 20px 0;
 
   @media screen and (min-width: 768px) {
     font-size: 0;
-    padding: 10px 0;
   }
 
   &__logo {
@@ -110,10 +108,12 @@
   }
 
   .social-links {
-    display: none;
+    text-align: center;
+    margin-top: 20px;
 
     @media screen and (min-width: 768px) {
       display: inline-block;
+      margin: 0;
       vertical-align: middle;
       width: 15%;
       text-align: right;
